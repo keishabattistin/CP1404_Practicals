@@ -1,6 +1,6 @@
 def main():
-    lower = input("What is the lower range: ")
-    upper = input("What is the upper range: ")
+    lower = int(input("What is the lower range: "))
+    upper = int(input("What is the upper range: "))
     get_number(lower, upper)
 
 def get_number(lower, upper):
