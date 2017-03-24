@@ -9,7 +9,7 @@ def main():
     while counter_1 != no_quick_picks:
 
         while counter != 6:
-            number = random.randint(1,45)
+            number = random.randint(1, 45)
 
             if number not in lottery_numbers:
                 lottery_numbers.append(number)
@@ -17,11 +17,12 @@ def main():
             else:
                 counter -= 1
 
-            counter +=1
+            counter += 1
 
         print(lottery_numbers)
-        counter =  0
+        counter = 0
         lottery_numbers = []
         counter_1 += 1
+
 
 main()
